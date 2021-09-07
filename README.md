@@ -1,3 +1,6 @@
 ﻿# Oculus FPFC Fix
+ 
+Oculus FPFC Fix is a Beat Saber mod that fixes the missing cursor issue in FPFC mode that occurs under the following circumstances:
 
-Oculus FPFC Fix is a Beat Saber mod that fixes the broken FPFC mode since patch 1.13.4 for people using an Oculus device with `-vrmode oculus` or who don't have SteamVR installed.
+- You own an Oculus device and play the game without SteamVR.
+- You use the `-vrmode oculus` switch when launching the game.
