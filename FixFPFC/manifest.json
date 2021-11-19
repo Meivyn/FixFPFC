@@ -1,12 +1,12 @@
 ﻿{
   "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
-  "id": "OculusFPFCFix",
-  "name": "OculusFPFCFix",
+  "id": "FixFPFC",
+  "name": "FixFPFC",
   "author": "Meivyn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix broken FPFC mode with Oculus devices.",
-  "gameVersion": "1.13.4",
+  "gameVersion": "1.18.3",
   "dependsOn": {
-    "BSIPA": "^4.1.4"
+    "BSIPA": "^4.2.0"
   }
 }

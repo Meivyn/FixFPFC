@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OculusFPFCFix", "OculusFPFCFix\OculusFPFCFix.csproj", "{3823190C-7A6C-42FA-A9F0-EF535E2BB094}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixFPFC", "FixFPFC\FixFPFC.csproj", "{3823190C-7A6C-42FA-A9F0-EF535E2BB094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
