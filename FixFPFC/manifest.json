@@ -3,8 +3,8 @@
   "id": "FixFPFC",
   "name": "FixFPFC",
   "author": "Meivyn",
-  "version": "1.0.1",
-  "description": "Fix broken FPFC mode with Oculus devices.",
+  "version": "1.0.2",
+  "description": "Fixes FPFC mode which is broken when using Oculus runtime.",
   "gameVersion": "1.18.3",
   "dependsOn": {
     "BSIPA": "^4.2.0"
