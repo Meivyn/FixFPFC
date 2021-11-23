@@ -4,21 +4,21 @@ using UnityEngine;
 namespace FixFPFC.HarmonyPatches
 {
     [HarmonyPatch(typeof(OVRPlugin), nameof(OVRPlugin.hasInputFocus), MethodType.Getter)]
-    internal class HasInputFocusGetterPatch
+    internal class OVRPluginHasInputFocusGetterPatch
     {
         private static FirstPersonFlyingController firstPersonFlyingController;
 
         private static void Postfix(ref bool __result)
         {
-            firstPersonFlyingController = firstPersonFlyingController ?? Object.FindObjectOfType<FirstPersonFlyingController>();
-
             if (firstPersonFlyingController == null)
             {
-                return;
+                firstPersonFlyingController = Object.FindObjectOfType<FirstPersonFlyingController>();
             }
 
-            __result = firstPersonFlyingController.enabled;
+            if (firstPersonFlyingController != null && firstPersonFlyingController.enabled)
+            {
+                __result = true;
+            }
         }
     }
 }
-
