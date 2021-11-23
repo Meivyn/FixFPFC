@@ -6,7 +6,7 @@ namespace FixFPFC.HarmonyPatches
     [HarmonyPatch(typeof(OVRPlugin), nameof(OVRPlugin.hasInputFocus), MethodType.Getter)]
     internal class OVRPluginHasInputFocusGetterPatch
     {
-        private static FirstPersonFlyingController firstPersonFlyingController;
+        private static FirstPersonFlyingController? firstPersonFlyingController;
 
         private static void Postfix(ref bool __result)
         {

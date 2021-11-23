@@ -8,7 +8,7 @@ namespace FixFPFC
     [Plugin(RuntimeOptions.SingleStartInit)]
     public class Plugin
     {
-        internal static IPALogger Log { get; private set; }
+        internal static IPALogger Log { get; private set; } = null!;
 
         [Init]
         public Plugin(IPALogger logger)
